@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import Navibar from "./components/Navibar";
 import { Route } from "react-router-dom";
 import Linda from "./pages/Linda";
@@ -9,9 +9,10 @@ function App() {
 	return (
 		<div>
 			<Navibar />
-			<Route exact path="/Linda" component={Linda} />
-			<Route exact path="/" component={Home} />
-			{/* <div className="App">
+			<div id="app">
+				<Route exact path="/Linda" component={Linda} />
+				<Route exact path="/" component={Home} />
+				{/* <div className="App">
 				<header className="App-header">
 					<img src={logo} className="App-logo" alt="logo" />
 					<p>
@@ -27,6 +28,7 @@ function App() {
 					</a>
 				</header>
 			</div> */}
+			</div>
 		</div>
 	);
 }

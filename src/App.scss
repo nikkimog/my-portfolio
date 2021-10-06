@@ -1,0 +1,160 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* navigation styling  */
+#navibar {
+	background-color: #4a5759;
+	a {
+		color: white;
+	}
+}
+.navbarLinks * {
+	color: white;
+	text-decoration: none;
+	margin: 0 0.5rem;
+}
+#navibar-button {
+	background-color: #989898;
+	border: none;
+}
+#navibar-button:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* app styling */
+#app {
+	height: 100vh;
+	background-color: #b0c4b1;
+}
+
+// home page styling
+.homeContainer {
+	padding-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 80%;
+	margin: 0 auto;
+	.innerContainer {
+		display: flex;
+		.leftText {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-right: 2rem;
+			font-size: 25px;
+		}
+	}
+	.downloadButton {
+		text-align: center;
+		border-radius: 4px;
+		background-color: black;
+		border: none;
+		color: white;
+		padding: 6px 15px;
+		cursor: pointer;
+		font-size: 16px;
+		width: 60%;
+		margin: 1rem auto;
+		text-decoration: none;
+	}
+	// .downloadButton:hover {
+	// 	background-color: black;
+	// }
+}
+.btn-custom {
+	width: 300px;
+	// background-color: #989898 !important;
+	color: white !important;
+}
+
+.card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 300px;
+	height: 400px;
+	background: #262626;
+	overflow: hidden;
+}
+.card .imgBx,
+.card .details {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+// .card .imgBx {
+// 	top: 0;
+// 	left: 0;
+// }
+.card:hover .imgBx {
+	top: 0;
+	left: -100%;
+}
+.card .imgBx {
+	height: 400px;
+}
+img {
+	width: 400px;
+}
+.card .details {
+	background: #262626;
+	top: 0;
+	left: 100%;
+	padding: 60px 30px;
+}
+.card:hover .details {
+	top: 0;
+	left: 0%;
+}
+.card .details h2 {
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 10px;
+	border-bottom: 2px solid #fff;
+}
+.card .details p {
+	margin: 20px 0 0;
+	color: #fff;
+}
