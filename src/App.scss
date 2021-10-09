@@ -158,3 +158,12 @@ img {
 	margin: 20px 0 0;
 	color: #fff;
 }
+
+// projects page styling
+
+.projectsGrid {
+	display: grid;
+	margin: 0 auto;
+	width: 80%;
+	grid-template-columns: 1fr 1fr;
+}

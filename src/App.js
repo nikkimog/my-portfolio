@@ -4,6 +4,7 @@ import Navibar from "./components/Navibar";
 import { Route } from "react-router-dom";
 import Linda from "./pages/Linda";
 import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<div id="app">
 				<Route exact path="/Linda" component={Linda} />
 				<Route exact path="/" component={Home} />
+				<Route exact path="/projects" component={Projects} />
 				{/* <div className="App">
 				<header className="App-header">
 					<img src={logo} className="App-logo" alt="logo" />
