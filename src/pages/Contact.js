@@ -7,8 +7,10 @@ class Contact extends React.Component {
 				<h1 className="text-center  py-4 px-5">get in touch</h1>
 				<div className="contactGrid w-50 mx-auto pt-2">
 					<div className="mx-2 text-center">
-						<i className="fa fa-envelope-open fa-3x"></i>
-						<div className="mt-2">nicolerosemogensen at gmail dot com</div>
+						<a href="mailto:nicolerosemogensen@gmail.com">
+							<i className="fa fa-envelope-open fa-3x"></i>
+							<div className="mt-2">nicolerosemogensen at gmail dot com</div>
+						</a>
 					</div>
 					<div className="mx-2 text-center">
 						<a href="https://www.linkedin.com/in/nikkimogensendpt/">
