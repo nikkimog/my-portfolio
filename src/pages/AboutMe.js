@@ -46,7 +46,6 @@ class AboutMe extends React.Component {
 					{timelineElements.map((element) => {
 						return (
 							<VerticalTimelineElement
-								visible={true}
 								key={element.key}
 								date={element.date}
 								dateClassName="date"
