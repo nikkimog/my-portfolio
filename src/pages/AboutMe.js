@@ -1,8 +1,11 @@
 // import { ReactComponent as WorkIcon } from "./work.svg";
 // import { ReactComponent as SchoolIcon } from "./school.svg";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import timelineElements from "./timelineElements";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
 
 import {
 	VerticalTimeline,
@@ -49,6 +52,14 @@ class AboutMe extends React.Component {
 								key={element.key}
 								date={element.date}
 								dateClassName="date"
+								icon={
+									element.icon === "faDesktop" ? (
+										<FontAwesomeIcon icon={faDesktop} />
+									) : (
+										<FontAwesomeIcon icon={faBook} />
+									)
+								}
+								iconStyle={{ background: "rgb(100, 100, 100)", color: "#fff" }}
 							>
 								<h3 className="vertical-timeline-element-title titleElement">
 									{element.title}

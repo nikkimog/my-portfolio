@@ -5,24 +5,23 @@ let timelineElements = [
 		location: "Remote",
 		organization: "Specbooks",
 		description: [
-			"Built and deployed a minimum of 1-2 e-commerce sites per week customized based on customer needs, while adding new weekly features using agile development.",
-			"Created generalized components for 4-5 different themes with focus on attractive user interface with efficient functionality used by over 25 customer sites.",
+			"Built and deployed a minimum of 1-2 e-commerce sites per week; customized sites based on customer needs, while adding new weekly features using Agile development.",
+			"Created generalized components for 4-5 different themes with focus on attractive user interface with efficient functionality used by over 400 customer sites.",
 			"Collaborated with backend engineers to create features for improving user experience of marketplace customer.",
 			"Monitored CI/CD to ensure builds and deployments occurred ahead of deadlines.",
-			// "Contributed to documentation and organization of e-commerce boilerplate application.",
 			"Used SQL to interact with MySQL database in DBeaver.",
 			"Enhanced frontend performance by decreasing total blocking time, cumulative layout shift and time to interact.",
 			"Improved application’s accessibility by 20% by incorporating an accessibility library to enforce standards.",
 		],
 		buttonText: "View Frontend Projects",
 		date: "April 2021 - present",
-		icon: "work",
+		icon: "faDesktop",
 	},
 	{
 		id: 2,
 		title: "Software Engineering Immersive Student",
 		location: "Remote",
-		organization: "Grace Hopper Program of Fullstack Academy",
+		organization: "Grace Hopper Program at Fullstack Academy",
 		description: [
 			"Software engineering program based in New York City centered on full-stack javascript development.",
 			"Backend curriculum included Node.js, Express, Sequelize ORM, and PostgreSQL.",
@@ -46,7 +45,7 @@ let timelineElements = [
 		],
 
 		date: "August 2018 - January 2021",
-		icon: "work",
+		icon: "faDesktop",
 	},
 	{
 		id: 4,
@@ -62,7 +61,7 @@ let timelineElements = [
 		// 	"Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
 		// buttonText: "Course Certificate",
 		date: "August 2020 - September 2020",
-		icon: "school",
+		icon: "faDesktop",
 	},
 	{
 		id: 5,
