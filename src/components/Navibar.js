@@ -40,7 +40,9 @@ class Navibar extends React.Component {
 		return (
 			<Navbar id="navibar" expand="lg">
 				<Container>
-					<Navbar.Brand href="/">nikki mogensen</Navbar.Brand>
+					<Link className="brand" to="/">
+						nikki mogensen
+					</Link>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto navbarLinks">

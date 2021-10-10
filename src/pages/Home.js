@@ -29,50 +29,42 @@ class Home extends React.Component {
 	render() {
 		// const { changeColorPalette } = this;
 		return (
-			<div className="homeContainer">
-				<div className="innerContainer">
-					<div className="leftText">
-						<div>hi y'all!</div>
-						<div>my name is Nikki Mogensen</div>
-						<div> -- I'm a fullstack developer.</div>
+			// <div className="homeContainer">
+			<div className="innerContainer">
+				<div className="leftText">
+					<div>hi y'all!</div>
+					<div>my name is Nikki Mogensen</div>
+					<div> -- I'm a fullstack developer.</div>
 
-						<a
-							className="downloadButton"
-							href="../../assets/nikki_mogensen_resume.pdf"
-							download="nikki_mogensen_resume"
-						>
-							<i className="fa fa-download mr-2"></i>
-							download my resume
-						</a>
-					</div>
-					<div>
-						<div className="card">
-							<div className="imgBox">
-								<img
-									src="https://i.ibb.co/yk1bVts/Screen-Shot-2021-09-28-at-4-56-02-PM.png"
-									alt="Nikki in front of city skyline"
-									className="imgBox"
-								></img>
-							</div>
-							<div className="details">
-								<h2>welcome to my portfolio :)</h2>
-								<p>
-									Thanks so much for stopping by! Check out more about me, some
-									of my projects, my contact information, and even my new puppy
-									linda by navigating through the links above. I love software
-									development, and I'm glad you've found your way here!
-								</p>
-							</div>
+					<a
+						className="downloadButton"
+						href="../../assets/nikki_mogensen_resume.pdf"
+						download="nikki_mogensen_resume"
+					>
+						<i className="fa fa-download mr-2"></i>
+						download my resume
+					</a>
+				</div>
+				<div className="rightSide">
+					{/* <div className="imageCard">
+						<div className="imgBx"> */}
+					<img
+						src="https://i.ibb.co/yk1bVts/Screen-Shot-2021-09-28-at-4-56-02-PM.png"
+						alt="Nikki in front of city skyline"
+						className="imgBox"
+					></img>
+				</div>
+				{/* <div className="details">
+							<h2>welcome to my portfolio :)</h2>
+							<p>
+								Thanks so much for stopping by! Check out more about me, some of
+								my projects, my contact information, and even my new puppy linda
+								by navigating through the links above. I love software
+								development, and I'm glad you've found your way here!
+							</p>
 						</div>
 					</div>
-				</div>
-				{/* <Button
-					className="changePaletteButton"
-					variant="info"
-					onClick={() => changeColorPalette()}
-				>
-					change colors for a different vibe{" "}
-				</Button> */}
+				</div> */}
 			</div>
 		);
 	}
