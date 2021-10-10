@@ -29,7 +29,7 @@ class Home extends React.Component {
 	render() {
 		// const { changeColorPalette } = this;
 		return (
-			<div className="homeContainer d-flex">
+			<div className="homeContainer">
 				<div className="innerContainer">
 					<div className="leftText">
 						<div>hi y'all!</div>
