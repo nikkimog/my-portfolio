@@ -60,7 +60,7 @@
 
 /* app styling */
 #app {
-	height: 100vh;
+	min-height: 100vh;
 	background-color: #b0c4b1;
 }
 
@@ -166,4 +166,53 @@ img {
 	margin: 0 auto;
 	width: 80%;
 	grid-template-columns: 1fr 1fr;
+	gap: 2rem;
+	@media (max-width: 768px) {
+		grid-template-columns: 1fr;
+	}
+	iframe {
+		width: 100%;
+		height: 315px;
+		// @media(max-width: 768px){
+		// 	height:
+		// }
+	}
+	a {
+		color: inherit;
+		&:hover {
+			color: lighten(black, 50%);
+		}
+		&:visited {
+			color: inherit;
+		}
+	}
+}
+
+// carousel styling
+
+.carouselOfLinda {
+	width: 40%;
+	margin: 0 auto;
+	.slide {
+		max-height: 500px;
+	}
+}
+
+// contact page styling
+
+.contactGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+// all link styling
+.contactGrid a {
+	text-decoration: none;
+	color: inherit;
+	&:hover {
+		color: lighten(black, 50%);
+	}
+	// &:visited {
+	// 	color: inherit;
+	// }
 }
