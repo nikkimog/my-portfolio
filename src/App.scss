@@ -117,6 +117,9 @@
 		display: flex;
 		// justify-content: center;
 		align-items: center;
+		@media (max-width: 768px) {
+			justify-content: center;
+		}
 		img {
 			height: 400px;
 			border-radius: 8px;
@@ -245,6 +248,9 @@
 	margin: 0 auto;
 	.slide {
 		max-height: 500px;
+	}
+	@media (max-width: 768px) {
+		width: 80%;
 	}
 }
 
