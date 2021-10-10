@@ -15,21 +15,33 @@ class Linda extends Component {
 				</p>
 				<Carousel>
 					<div>
-						<img src="../../assets/linda5.png" />
+						<img
+							src="../../assets/linda5.png"
+							alt="Linda a puppy visiting Lake Santeetlah in the mountains of NC"
+						/>
 						<p className="legend">
 							Linda visiting Lake Santeetlah in the mountains of NC
 						</p>
 					</div>
 					<div>
-						<img src="../../assets/linda2.png" />
+						<img
+							src="../../assets/linda2.png"
+							alt="Linda a puppy just showing a perfect smile"
+						/>
 						<p className="legend">Linda just showing a perfect smile</p>
 					</div>
 					<div>
-						<img src="../../assets/linda3.png" />
+						<img
+							src="../../assets/linda3.png"
+							alt="Linda a puppy being held in arms"
+						/>
 						<p className="legend">The day we picked out Linda!</p>
 					</div>
 					<div>
-						<img src="../../assets/linda4.png" />
+						<img
+							src="../../assets/linda4.png"
+							alt="Linda a puppy with cheese fries"
+						/>
 						<p className="legend">
 							Linda with her namesake, cheese fries from Linda's Bar and Grille
 						</p>
