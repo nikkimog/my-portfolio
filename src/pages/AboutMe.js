@@ -42,10 +42,11 @@ class AboutMe extends React.Component {
 					</div>
 				</div>
 				{/* <h1 className="title">timeline</h1> */}
-				<VerticalTimeline className="timeline" animate={false}>
+				<VerticalTimeline className="timeline">
 					{timelineElements.map((element) => {
 						return (
 							<VerticalTimelineElement
+								visible={true}
 								key={element.key}
 								date={element.date}
 								dateClassName="date"
