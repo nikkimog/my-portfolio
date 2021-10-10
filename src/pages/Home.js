@@ -32,17 +32,17 @@ class Home extends React.Component {
 			<div className="homeContainer d-flex">
 				<div className="innerContainer">
 					<div className="leftText">
-						<div>Hi Y'all!</div>
-						<div>My name is Nikki Mogensen.</div>
-						<div> I'm a fullstack developer.</div>
+						<div>hi y'all!</div>
+						<div>my name is Nikki Mogensen</div>
+						<div> -- I'm a fullstack developer.</div>
 
 						<a
 							className="downloadButton"
-							href="path_to_file"
+							href="../../assets/nikki_mogensen_resume.pdf"
 							download="nikki_mogensen_resume"
 						>
 							<i className="fa fa-download mr-2"></i>
-							Download My Resume
+							download my resume
 						</a>
 					</div>
 					<div>
@@ -55,7 +55,7 @@ class Home extends React.Component {
 								></img>
 							</div>
 							<div className="details">
-								<h2>Welcome to my Portfolio!</h2>
+								<h2>welcome to my portfolio :)</h2>
 								<p>
 									Thanks so much for stopping by! Check out more about me, some
 									of my projects, my contact information, and even my new puppy

@@ -4,7 +4,7 @@ class Contact extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1 className="text-center py-5">get in touch</h1>
+				<h1 className="text-center  py-4 px-5">get in touch</h1>
 				<div className="contactGrid w-50 mx-auto pt-2">
 					<div className="mx-2 text-center">
 						<i className="fa fa-envelope-open fa-3x"></i>

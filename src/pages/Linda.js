@@ -8,9 +8,9 @@ class Linda extends Component {
 	render() {
 		return (
 			<div className="carouselOfLinda">
-				<h1 className="text-center pt-2"> linda</h1>
+				<h1 className="text-center pt-4"> linda</h1>
 				<p>
-					Like everyone else during the pandemic, my partner and I got a puppy.
+					Like everyone else, my partner and I got a puppy during the pandemic.
 					Her name is Linda, and here are some cute photos of her!
 				</p>
 				<Carousel>

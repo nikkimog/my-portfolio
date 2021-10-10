@@ -40,14 +40,14 @@ class Navibar extends React.Component {
 		return (
 			<Navbar id="navibar" expand="lg">
 				<Container>
-					<Navbar.Brand href="/">Nikki Mogensen</Navbar.Brand>
+					<Navbar.Brand href="/">nikki mogensen</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav" />
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto navbarLinks">
-							<Link to="/aboutme">About Me</Link>
-							<Link to="/projects">Projects</Link>
-							<Link to="/contact">Contact</Link>
-							<Link to="/linda">Linda</Link>
+							<Link to="/aboutme">about me</Link>
+							<Link to="/projects">projects</Link>
+							<Link to="/contact">contact</Link>
+							<Link to="/linda">linda</Link>
 						</Nav>
 						<Button
 							id="navibar-button"

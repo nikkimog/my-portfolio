@@ -5,7 +5,7 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1 className="text-center py-3">projects</h1>
+				<h1 className="text-center py-4">projects</h1>
 				<div class="projectsGrid pb-5">
 					<div>
 						<a href="https://ratemy-landlord.herokuapp.com/">RateMyLandlord</a>
