@@ -26,11 +26,11 @@ class Navibar extends React.Component {
 			navibarButtonColors[increment];
 		document.getElementById("navibar-button").style.color =
 			navibarButtonText[increment];
-		console.log("increment2", increment);
+		// console.log("increment2", increment);
 
 		this.setState({ increment: increment + 1 });
 
-		console.log("increment3", increment);
+		// console.log("increment3", increment);
 		if (increment >= 3) {
 			this.setState({ increment: 0 });
 		}
