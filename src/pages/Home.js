@@ -34,7 +34,7 @@ class Home extends React.Component {
 				<div className="leftText">
 					<div>hi y'all!</div>
 					<div>my name is Nikki Mogensen</div>
-					<div> -- I'm a fullstack developer.</div>
+					<div> -- I'm a software engineer.</div>
 
 					<a
 						className="downloadButton"

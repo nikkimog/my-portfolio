@@ -1,5 +1,20 @@
 let timelineElements = [
 	{
+		id: 0,
+		title: "Associate Software Engineer",
+		location: "Remote",
+		organization: "Well Health",
+		description: [
+			"Created internal tooling to improve client onboarding and staff implementation of software",
+			"Lead a migration of shared library of components from Kendo to MUI",
+			"Participated in task force to utilize hasura, apollo, and graphql in greenfield repository",
+			"Utilized scrum processes to succeed in agile environment while also keeping meetings lean to ensure team productivity"
+		],
+		buttonText: "View Frontend Projects",
+		date: "December 2021 - present",
+		icon: "faDesktop",
+	},
+	{
 		id: 1,
 		title: "Junior Frontend Developer",
 		location: "Remote",
@@ -14,7 +29,7 @@ let timelineElements = [
 			"Improved application’s accessibility by 20% by incorporating an accessibility library to enforce standards.",
 		],
 		buttonText: "View Frontend Projects",
-		date: "April 2021 - present",
+		date: "April 2021 - December 2021",
 		icon: "faDesktop",
 	},
 	{
