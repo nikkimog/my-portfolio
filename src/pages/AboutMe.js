@@ -36,12 +36,12 @@ class AboutMe extends React.Component {
 						journey.
 					</div>
 					<div>
-						<span className="font-italic">Frontend</span> - Javascript, React,
-						Redux, Vue, Vuex, Bootstrap, Materialize, HTML, CSS, SEO principles
+						<span className="font-italic">Frontend</span> - Javascript, React, Apollo Client and GraphQL
+						Redux, Vue, Vuex, Bootstrap, Material UI, HTML, CSS, SEO principles
 					</div>
 					<div className="mb-5">
-						<span className="font-italic">Backend</span> - NodeJS, Express,
-						MySQL, PostgreSQL, Sequelize
+						<span className="font-italic">Backend</span> - Nest.js, NodeJS, Express,
+						MySQL, PostgreSQL, Sequelize, Hasura
 					</div>
 				</div>
 				{/* <h1 className="title">timeline</h1> */}

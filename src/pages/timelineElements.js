@@ -5,10 +5,10 @@ let timelineElements = [
 		location: "Remote",
 		organization: "Well Health",
 		description: [
-			"Created internal tooling to improve client onboarding and staff implementation of software",
-			"Lead a migration of shared library of components from Kendo to MUI",
-			"Participated in task force to utilize hasura, apollo, and graphql in greenfield repository",
-			"Utilized scrum processes to succeed in agile environment while also keeping meetings lean to ensure team productivity"
+			"Created internal tooling to improve client onboarding and staff implementation of software and increase stakeholder efficiency by 30%.",
+			"Lead a migration of shared library of components from Kendo to MUI.",
+			"Participated in task force to utilize hasura, apollo, and graphql in greenfield repository.",
+			"Utilized scrum processes to succeed in agile environment while also keeping meetings lean to ensure team productivity."
 		],
 		buttonText: "View Frontend Projects",
 		date: "December 2021 - present",
