@@ -38,8 +38,8 @@ class Home extends React.Component {
 
 					<a
 						className="downloadButton"
-						href="../../assets/NIKKIMOGENSENCV9-6-2022.pdf"
-						download="nikki_mogensen_resume"
+						href="../../assets/nikkimogensen_resume.pdf"
+						download="nikkimogensen_resume"
 					>
 						<i className="fa fa-download mr-2"></i>
 						download my resume
