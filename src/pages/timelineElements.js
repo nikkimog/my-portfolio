@@ -1,11 +1,27 @@
 let timelineElements = [
 	{
 		id: 0,
+		title: "Software Engineer I",
+		location: "Remote",
+		organization: "Artera",
+		description: [
+			"Spearheaded interviewing committee to revamp interview process with goals of decreasing bias and improving candidate experience.",
+			"Shared knowledge of new technologies used (Apollo, Hasura, GraphQL) across company wide engineering organization.",
+			"Co-lead for remote connection across organization in newly formed connected employees committee.",
+			"Set standards for GraphQL query writing in frontend for entire organization.",
+			"During companywide hackathon implemented various changes including code splitting and decreasing unnecessary API calls to improve application load time by 15%."
+		],
+		buttonText: "View Frontend Projects",
+		date: "December 2021 - present",
+		icon: "faDesktop",
+	},
+	{
+		id: 0,
 		title: "Associate Software Engineer",
 		location: "Remote",
-		organization: "Well Health",
+		organization: "Artera (formerly Well Health)",
 		description: [
-			"Created internal tooling to improve client onboarding and staff implementation of software and increase stakeholder efficiency by 30%.",
+			"Created internal tooling to improve client onboarding and staff implementation of software and increase stakeholder efficiency by 70%.",
 			"Lead a migration of shared library of components from Kendo to MUI.",
 			"Participated in task force to utilize hasura, apollo, and graphql in greenfield repository.",
 			"Utilized scrum processes to succeed in agile environment while also keeping meetings lean to ensure team productivity."

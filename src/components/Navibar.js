@@ -17,8 +17,8 @@ class Navibar extends React.Component {
 		let { increment } = this.state;
 		let navibarColors = ["#736372", "#2E4057", "#D5775D", "#4A5759"];
 		let appColors = ["#DBD3C9", "#F1E8B8", "#FAC9B8", "#B0C4B1"];
-		let navibarButtonColors = ["#D4CDF4", "#505A5B", "#C6A15B", "#989898"];
-		let navibarButtonText = ["gray", "white", "white", "white"];
+		let navibarButtonColors = ["#D4CDF4", "#505A5B", "#C6A15B", "#00856A"];
+		let navibarButtonText = ["black", "white", "black", "white"];
 		document.getElementById("navibar").style.backgroundColor =
 			navibarColors[increment];
 		document.getElementById("app").style.backgroundColor = appColors[increment];
@@ -47,6 +47,7 @@ class Navibar extends React.Component {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto navbarLinks">
 							<Link to="/aboutme">about me</Link>
+							<Link to="/skills">skills</Link>
 							<Link to="/projects">projects</Link>
 							<Link to="/contact">contact</Link>
 							<Link to="/linda">linda</Link>

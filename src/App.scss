@@ -62,7 +62,7 @@
 	}
 }
 #navibar-button {
-	background-color: #989898;
+	background-color: #00856A;
 	border: none;
 	@media (max-width: 768px) {
 		margin: auto;
@@ -146,7 +146,7 @@
 
 .projectsGrid {
 	display: grid;
-	margin: 0 auto;
+	margin: 3rem auto 0;
 	width: 80%;
 	grid-template-columns: 1fr 1fr;
 	gap: 2rem;

@@ -1,12 +1,95 @@
 import React from "react";
+import { Card } from "react-bootstrap";
 // import { Button } from "react-bootstrap";
+import { SiApollographql, SiBootstrap, SiCss3, SiCypress, SiGithub, SiHasura, SiHtml5, SiJavascript, SiJest, SiMaterialui, SiMclaren, SiNestjs, SiNuxtdotjs, SiPostgresql, SiReact, SiSequelize, SiVuedotjs, SiWebpack } from "react-icons/si"
+import { SiRedux } from "react-icons/si";
+
+const IconDiv = ({icon, name}) => {
+	return(
+		<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', margin: '6px'}}>
+			{icon}
+			{name}
+			</div>
+
+	)
+}
+
 
 class Projects extends React.Component {
 	render() {
 		return (
 			<div>
 				<h1 className="text-center py-4">projects</h1>
+					{/* <div style={{display: 'flex'}}> */}
+
+				<div style={{ display: 'flex', flexDirection: 'row', width: '80%', margin: '10px auto', justifyContent: 'space-around'}}>
+				<div style={{display: 'flex', width: '30%', textAlign: 'center', justifyContent: 'center', alignItems: 'center'}}>built with</div>
+				<div style={{ display: 'flex', flexDirection: 'row', maxWidth: '40%', flexWrap: 'wrap', justifyContent: 'center'}}>
+				<IconDiv icon={<SiReact />} name="react"/>
+				<IconDiv icon={<SiRedux />} name="redux"/>
+				<IconDiv icon={<SiVuedotjs />} name="vue.js"/>
+				<IconDiv icon={<SiBootstrap />} name="bootstrap"/>
+				<IconDiv icon={<SiWebpack />} name="webpack"/>
+				<IconDiv icon={<SiMaterialui />} name="MUI"/>
+				<IconDiv icon={<SiJest />} name="jest"/>
+				<IconDiv icon={<SiPostgresql />} name="postgres"/>
+				<IconDiv icon={<SiHtml5 />} name="HTML5"/>
+				<IconDiv icon={<SiJavascript />} name="javascript"/>
+				<IconDiv icon={<SiCss3 />} name="CSS3"/>
+				<IconDiv icon={<SiNuxtdotjs />} name="nuxt.js"/>
+				<IconDiv icon={<SiSequelize />} name="sequelize"/>
+				<IconDiv icon={<SiGithub />} name="github"/>
+				</div>
+				</div>
+				<div style={{ display: 'flex', flexDirection: 'row', width: '80%', margin: '0 auto', justifyContent: 'space-around'}}>
+				<div style={{display: 'flex', width: '30%', textAlign: 'center'}}>other technologies I've used not displayed here</div>
+				<div style={{ display: 'flex', flexDirection: 'row'}}>
+				<IconDiv icon={<SiApollographql />} name="apollo graphql"/>
+				<IconDiv icon={<SiHasura />} name="hasura"/>
+				<IconDiv icon={<SiNestjs />} name="nest.js"/>
+				<IconDiv icon={<SiCypress />} name="cypress"/>
+				</div>
+				</div>
+				{/* </div> */}
 				<div class="projectsGrid pb-5">
+				<div>
+						<a href="https://hkbhuntsville.com/">Heritage Kitchen and Bath</a>
+						<ul>
+							<li className="font-weight-bold">
+								An example of one of the many websites I helped design or redesign to improve online sales and user experience for shopping at small to medium sized businesses.
+							</li>
+							<li>
+								Built with Vue.js and Vuex state management with a PHP backend.
+							</li>
+							<li>Dropdown navigation bar leads user to expert search and shopping experience including filtering, sorting, and elastic search.</li>
+						</ul>
+					</div>
+					<div>
+						<img
+							className="w-100"
+							src="../../assets/hkbhuntsville.png"
+							alt="heritage kitchen and bath website"
+						></img>
+					</div>
+					<div>
+						<a href="https://thefixtureexchange.com/">The Fixture Exchange</a>
+						<ul>
+							<li className="font-weight-bold">
+								Another website built to improve customer experience of browsing and purchasing through the site.
+							</li>
+							<li>
+								Built with Vue.js and Vuex state management with a PHP backend.
+							</li>
+							<li>Wishlist capabilities connected to external webapp which provides a seamless purchasing experience.</li>
+						</ul>
+					</div>
+					<div>
+						<img
+							className="w-100"
+							src="../../assets/thefixtureexchange.png"
+							alt="the fixture exchange website"
+						></img>
+					</div>
 					<div>
 						<a href="https://ratemy-landlord.herokuapp.com/">RateMyLandlord</a>
 						<ul>
@@ -80,30 +163,6 @@ class Projects extends React.Component {
 							className="w-100"
 							src="../../assets/vuedictionary.png"
 							alt="vue dictionary app home page"
-						></img>
-					</div>
-					<div>
-						<a href="http://bubblysort.herokuapp.com">BubblySort</a>
-						<ul>
-							<li className="font-weight-bold">
-								Mock e-commerce single page application selling setlzers.
-							</li>
-							<li>
-								Customized front-end design with Bootstrap and Framer Motion
-								with focus on mobile responsiveness.
-							</li>
-							<li>
-								Node/Express, PostgresSQL and sequelize for back-end
-								development.{" "}
-							</li>
-							<li>Testing built with Mocha.</li>
-						</ul>
-					</div>
-					<div>
-						<img
-							src="../../assets/bubblysort.png"
-							alt="home page of BubblySort website"
-							className="w-100"
 						></img>
 					</div>
 				</div>

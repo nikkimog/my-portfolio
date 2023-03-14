@@ -27,9 +27,9 @@ class AboutMe extends React.Component {
 						helping patients problem solve through their mobility issues, my
 						passion was more suited towards developing technology to solve a
 						variety of society's and life's problems. I made my career switch
-						about a year ago and feel affirmed every day by the excitement and
+						about two years ago and feel affirmed every day by the excitement and
 						drive I get through developing clean, resuable, functional, and
-						readable code. Outside of work, I enjoy hanging out with my puppy
+						readable code. Outside of work, I enjoy hanging out with my dog
 						(see <Link to="/linda">Linda</Link>
 						for more), rock climbing, reading memoirs, and traveling. Scroll
 						down for a timeline of some important work and school events in my

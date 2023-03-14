@@ -13,9 +13,9 @@ class Contact extends React.Component {
 						</a>
 					</div>
 					<div className="mx-2 text-center">
-						<a href="https://www.linkedin.com/in/nikkimogensendpt/">
+						<a href="https://www.linkedin.com/in/nikkimogensen/">
 							<i className="fa fa-linkedin fa-3x"></i>
-							<div className="mt-2">nikkimogensendpt</div>
+							<div className="mt-2">nikkimogensen</div>
 						</a>
 					</div>
 					<div className="mx-2 text-center">
