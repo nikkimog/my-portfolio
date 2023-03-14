@@ -1,7 +1,7 @@
 import React from "react";
-import { Card } from "react-bootstrap";
+// import { Card } from "react-bootstrap";
 // import { Button } from "react-bootstrap";
-import { SiApollographql, SiBootstrap, SiCss3, SiCypress, SiGithub, SiHasura, SiHtml5, SiJavascript, SiJest, SiMaterialui, SiMclaren, SiNestjs, SiNuxtdotjs, SiPostgresql, SiReact, SiSequelize, SiVuedotjs, SiWebpack } from "react-icons/si"
+import { SiApollographql, SiBootstrap, SiCss3, SiCypress, SiGithub, SiHasura, SiHtml5, SiJavascript, SiJest, SiMaterialui, SiNestjs, SiNuxtdotjs, SiPostgresql, SiReact, SiSequelize, SiVuedotjs, SiWebpack } from "react-icons/si"
 import { SiRedux } from "react-icons/si";
 
 const IconDiv = ({icon, name}) => {
