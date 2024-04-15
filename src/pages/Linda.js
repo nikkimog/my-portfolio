@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 // import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 // import { Carousel } from "react-responsive-carousel";
-import ImageModal from '../components/ImageModal'
-import ImageGrid from "../components/ImageGrid";
+// import ImageModal from '../components/ImageModal'
+// import ImageGrid from "../components/ImageGrid";
 // import think from '../../public/assets/'
 
   
@@ -15,8 +15,8 @@ import ImageGrid from "../components/ImageGrid";
 	// 	{selectedImg && <Modal selectedImg={selectedImg} setSelectedImg={setSelectedImg} />}
 	//   </div>
 const Linda = () => {
-
-	const [modalImg, setModalImg] = useState(null);
+// 
+	// const [modalImg, setModalImg] = useState(null);
 
 		return (
 			<>

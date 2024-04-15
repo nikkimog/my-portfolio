@@ -1,16 +1,16 @@
 // import { ReactComponent as WorkIcon } from "./work.svg";
 // import { ReactComponent as SchoolIcon } from "./school.svg";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import timelineElements from "./timelineElements";
-import { faDesktop } from "@fortawesome/free-solid-svg-icons";
-import { faBook } from "@fortawesome/free-solid-svg-icons";
+// import timelineElements from "./timelineElements";
+// import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+// import { faBook } from "@fortawesome/free-solid-svg-icons";
 
-import {
-	VerticalTimeline,
-	VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+// import {
+// 	VerticalTimeline,
+// 	VerticalTimelineElement,
+// } from "react-vertical-timeline-component";
 
 import "react-vertical-timeline-component/style.min.css";
 // import React from "sass";
