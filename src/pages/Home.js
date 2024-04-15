@@ -29,7 +29,7 @@ class Home extends React.Component {
 	render() {
 		// const { changeColorPalette } = this;
 		return (
-			// <div className="homeContainer">
+			<div className="homeContainer">
 			<div className="innerContainer">
 				<div className="leftText">
 					<div>hi y'all!</div>
@@ -38,21 +38,21 @@ class Home extends React.Component {
 
 					<a
 						className="downloadButton"
-						href="../../assets/nikkimogensen_resume.pdf"
-						download="nikkimogensen_resume"
+						href="../../assets/mogensen_resume_2024.pdf"
+						download="mogensen_resume_2024"
 					>
 						<i className="fa fa-download mr-2"></i>
 						download my resume
 					</a>
 				</div>
-				<div className="rightSide">
+				{/* <div className="rightSide"> */}
 					{/* <div className="imageCard">
 						<div className="imgBx"> */}
-					<img
-						src="https://i.ibb.co/yk1bVts/Screen-Shot-2021-09-28-at-4-56-02-PM.png"
-						alt="Nikki in front of city skyline"
+					{/* <img
+						src="../../assets/nikki_stellenbosch.png"
+						alt="Nikki in front of vineyard in Stellenbosch"
 						className="imgBox"
-					></img>
+					></img> */}
 				</div>
 				{/* <div className="details">
 							<h2>welcome to my portfolio :)</h2>
@@ -65,6 +65,7 @@ class Home extends React.Component {
 						</div>
 					</div>
 				</div> */}
+			{/* </div> */}
 			</div>
 		);
 	}

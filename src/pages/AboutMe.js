@@ -21,31 +21,41 @@ class AboutMe extends React.Component {
 		return (
 			<div>
 				<h1 className="text-center py-4">about me</h1>
-				<div className="w-75 mx-auto">
+				<div className="w-50 mx-auto">
+				<div className="aboutMePhoto">
+					{/* <div className="imageCard">
+						<div className="imgBx"> */}
+					<img
+						src="../../assets/nikki_stellenbosch.png"
+						alt="Nikki in front of vineyard in Stellenbosch"
+						className="imgBox"
+					></img>
+				</div>
 					<div className="aboutMeParagraph">
 						I am a former physical therapist who realized that, although I loved
 						helping patients problem solve through their mobility issues, my
 						passion was more suited towards developing technology to solve a
 						variety of society's and life's problems. I made my career switch
-						about two years ago and feel affirmed every day by the excitement and
+						over three years ago and feel affirmed every day by the excitement and
 						drive I get through developing clean, resuable, functional, and
 						readable code. Outside of work, I enjoy hanging out with my dog
 						(see <Link to="/linda">Linda</Link>
-						for more), rock climbing, reading memoirs, and traveling. Scroll
+						for more), rock climbing, reading memoirs, and traveling.
+						 {/* Scroll
 						down for a timeline of some important work and school events in my
-						journey.
+						journey. */}
 					</div>
-					<div>
+					{/* <div>
 						<span className="font-italic">Frontend</span> - Javascript, React, Apollo Client and GraphQL
 						Redux, Vue, Vuex, Bootstrap, Material UI, HTML, CSS, SEO principles
 					</div>
 					<div className="mb-5">
 						<span className="font-italic">Backend</span> - Nest.js, NodeJS, Express,
 						MySQL, PostgreSQL, Sequelize, Hasura
-					</div>
+					</div> */}
 				</div>
 				{/* <h1 className="title">timeline</h1> */}
-				<VerticalTimeline className="timeline">
+				{/* <VerticalTimeline className="timeline">
 					{timelineElements.map((element) => {
 						return (
 							<VerticalTimelineElement
@@ -74,7 +84,7 @@ class AboutMe extends React.Component {
 							</VerticalTimelineElement>
 						);
 					})}
-				</VerticalTimeline>
+				</VerticalTimeline> */}
 			</div>
 		);
 	}

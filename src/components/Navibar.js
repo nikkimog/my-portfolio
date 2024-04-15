@@ -47,8 +47,8 @@ class Navibar extends React.Component {
 					<Navbar.Collapse id="basic-navbar-nav">
 						<Nav className="me-auto navbarLinks">
 							<Link to="/aboutme">about me</Link>
-							<Link to="/skills">skills</Link>
-							<Link to="/projects">projects</Link>
+							{/* <Link to="/skills">skills</Link> */}
+							{/* <Link to="/projects">projects</Link> */}
 							<Link to="/contact">contact</Link>
 							<Link to="/linda">linda</Link>
 						</Nav>
